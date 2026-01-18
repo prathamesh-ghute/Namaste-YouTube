@@ -20,6 +20,8 @@ const VideoContainer = () => {
         setVideos(json.items)
 
     }
+
+
   return (
     <div className='flex flex-wrap cursor-pointer'>
         {videos[0] && <AdVideoCard info={videos[0]}/>}
